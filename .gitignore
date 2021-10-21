@@ -1,6 +1,7 @@
 dist
 public
 node_modules
+.env
 .todo
 package-lock.json
 app/assets/tailwind.css

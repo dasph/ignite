@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta property="title" content="Ignite">
+  <meta property="description" content="A web service that is capable to recognize a song by its short excerpt.">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <title>Ignite</title>
+  <link rel="manifest" href='data:application/manifest+json,<%= require("./manifest.ts").default %>'>
+  <link rel="stylesheet" href="<%= require('./tailwind.css') %>">
+  <link rel="icon" type="image/png" href="<%= require('./favicon.png') %>">
+  <link rel="icon" type="image/svg+xml" href="<%= require('./images/icon.svg') %>">
+  <link rel="apple-touch-icon" href="<%= require('./images/icon-192.png') %>">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500&display=swap">
+</head>
+<body>
+  <div class="app" />
+</body>
+</html>
